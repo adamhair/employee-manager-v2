@@ -37,7 +37,9 @@ All fields except for ID are editable.
 
 *Save*: When saving a change, it will persist as you access other records and navigate back to the desired employee.
 * If there are unacceptable entries in the fields, an error message will pop up advising the users as to the errors they need to fix.
+
 *Cancel*: The cancel button will revert the employee's file back to the most recently saved version.
+
 *Delete*: The delete button will remove the employee record, and is irriversable.  A dialogue asking the user to confirm their desire to remove the record will be presented.
 
 The save and cancel buttons will only be accessible when modifications have been made.
