@@ -9,12 +9,5 @@ module.exports = {
     after: browser => {
         browser.end()
     },
-    'checking search clear button': browser => {
-        browser
-        .clearValue(selectors.eeList.search)
-        .setValue(selectors.eeList.search, 'Bernice')
-        .pause(20000)
-        .click(selectors.buttons.clearSearch)
-        .pause(10000)
-    }
+
         }
