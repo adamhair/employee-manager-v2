@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="jtshober_tests"
+    errors="1" failures="0" hostname="" id="" package="jtshober_tests" skipped="1"
+    tests="2" time="0.005000" timestamp="Tue, 02 Jan 2018 17:57:59 GMT">
+  
+    <testcase name="I can load the app in a new browser window, pause for 5 seconds, and then close the application" classname="jtshober_tests" time="0.005000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Jtshober Tests / I can load the app in a new browser window, pause for 5 seconds, and then close the application]:
+
+  ReferenceError: pause is not defined
+    at Object.I can load the app in a new browser window, pause for 5 seconds, and then close the application (/Users/jake/DevMtn/Projects/employee-manager-v2/nightwatch/tests/jtshober_tests.js:15:9)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Testing that a(n) employee card contains 5 specific pieces of information" classname="jtshober_tests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
