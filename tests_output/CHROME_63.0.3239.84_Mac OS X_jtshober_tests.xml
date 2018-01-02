@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="jtshober_tests"
     errors="0" failures="0" hostname="" id="" package="jtshober_tests" skipped="0"
-    tests="1" time="33.29" timestamp="Fri, 22 Dec 2017 18:40:00 GMT">
+    tests="2" time="10.79" timestamp="Tue, 02 Jan 2018 18:57:36 GMT">
   
-    <testcase name="checking search clear button" classname="jtshober_tests" time="33.29" assertions="0">
+    <testcase name="I can load the app in a new browser window, pause for 5 seconds, and then close the application" classname="jtshober_tests" time="8.725" assertions="0">
+    </testcase>
+  
+    <testcase name="Testing that a(n) employee card contains 5 specific pieces of information" classname="jtshober_tests" time="2.065" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
     </testcase>
   
 
