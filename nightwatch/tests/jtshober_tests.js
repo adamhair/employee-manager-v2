@@ -3,12 +3,15 @@ const data = require('../test_data/test_data')
 const func = require('../test_data/helper_functions')
 
 module.exports = {
+    // beforeEach is a type of hook, in which the following tests all start from this point, and will load a fresh app prior to each test executing.
     beforeEach: browser => {
         browser.url('http://localhost:3000')
     },
+    // Similar to 'beforeEach', this hook runs after the successful completetion of each test.
     after: browser => {
         browser.end()
     },
+    // This test completes JIRA test case EM2-6. https://dmutah.atlassian.net/projects/EM2/issues/EM2-6?filter=allopenissues
     'I can load the app in a new browser window, pause for 5 seconds, and then close the application': browser => {
         browser
         browser.url('http://localhost:3000')
@@ -16,6 +19,7 @@ module.exports = {
         browser.end()
         console.log('App was sucessfully loaded, then closed.')
     },
+    // This test completes JIRA test case EM2-9 https://dmutah.atlassian.net/projects/EM2/issues/EM2-9?filter=allopenissues
     'Testing that a(n) employee card contains 5 specific pieces of information': browser => {
         browser
             .click(selectors.eeList.ee1)
