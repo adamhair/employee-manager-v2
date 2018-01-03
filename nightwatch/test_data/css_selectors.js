@@ -17,7 +17,8 @@ module.exports = {
         ee7: 'li[name="employee7"]',
         ee8: 'li[name="employee8"]',
         ee9: 'li[name="employee9"]',
-        ee10: 'li[name="employee10"]'
+        ee10: 'li[name="employee10"]',
+        ee11: 'li[name="employee11"]'
 
     },
     //These reference the non-editable selectors found on an open contact card.
@@ -35,6 +36,9 @@ module.exports = {
         eePhone: 'input[name="phoneEntry"]',
         eeEmail: 'input[name="emailEntry"]',
         eeTitle: 'input[name="titleEntry"]'
+    },
+    addEmployee: {
+        eeName: 'input[name="nameEntry"]',
     },
     //These are all clickable buttons found in the program.
     buttons: {
