@@ -32,6 +32,5 @@ module.exports = {
             .setValue(selectors.contactCardInput.eeName, data.goodData.name)
             .click(selectors.buttons.cancelChanges)
         browser.expect.element(selectors.eeList.ee1).text.to.equal(data.goodData.name1)
-
     }
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="jtshober_tests"
+    errors="0" failures="0" hostname="" id="" package="jtshober_tests" skipped="0"
+    tests="6" time="15.55" timestamp="Wed, 03 Jan 2018 18:47:14 GMT">
+  
+    <testcase name="I can load the app in a new browser window, pause for 5 seconds, and then close the application" classname="jtshober_tests" time="8.501" assertions="0">
+    </testcase>
+  
+    <testcase name="Testing that a(n) employee card contains 5 specific pieces of information" classname="jtshober_tests" time="1.902" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Testing &#34;badData&#34; input on existing Employee &#34;Name&#34; - 1 of 4" classname="jtshober_tests" time="1.578" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Testing &#34;badData&#34; input on existing Employee &#34;Phone&#34; - 2 of 4" classname="jtshober_tests" time="1.105" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Testing &#34;badData&#34; input on existing Employee &#34;Email&#34; - 3 of 4" classname="jtshober_tests" time="1.148" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Testing &#34;badData&#34; input on existing Employee &#34;Title&#34; - 4 of 4" classname="jtshober_tests" time="1.313" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
