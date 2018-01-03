@@ -33,5 +33,18 @@ module.exports = {
             .click(selectors.buttons.cancelChanges)
         browser.expect.element(selectors.eeList.ee1).text.to.equal(data.goodData.name1)
 
+    },
+    'testing navigating away reverts all changes': (browser) =>{
+
+        browser.waitForElementVisible(selectors.eeList.ee1, 2000)
+        browser.expect.element(selectors.eeList.ee1).text.to.equal(data.goodData.name1)
+        browser.click(selectors.eeList.ee1)
+        browser.waitForElementVisible(selectors.eeList.ee1, 2000)
+            .click(selectors.contactCardInput.eeName)
+            .clearValue(selectors.contactCardInput.eeName)
+            .setValue(selectors.contactCardInput.eeName, data.goodData.name)
+            .click(selectors.eeList.ee10)
+            browser.click(selectors.eeList.ee1)
+        browser.expect.element(selectors.eeList.ee1).text.to.equal(data.goodData.name1)
     }
 }

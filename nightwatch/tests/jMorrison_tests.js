@@ -15,19 +15,21 @@ module.exports = {
         browser.click(selectors.eeList.search)
         func.enterValue(selectors.eeList.search, "Lou White", browser)
         browser.expect.element(selectors.eeList.ee8).to.be.present
+        browser.expect.element(selectors.eeList.ee4).to.not.be.present
     },
     "test clear button for search function": (browser) => {
         browser.click(selectors.eeList.search)
         func.enterValue(selectors.eeList.search, "Eve Sparks", browser)
         browser.expect.element(selectors.eeList.ee9).to.be.present
+        browser.expect.element(selectors.eeList.ee1).to.not.be.present
         browser.click(selectors.buttons.clearSearch)
-        browser.expect.element(selectors.eeList.ee1).to.be.visible
+        browser.expect.element(selectors.eeList.ee1).to.be.present
     },
     'Modifying employee while search field is populated will update the results': (browser) => {
         browser.click(selectors.eeList.ee4)
         func.enterValue(selectors.eeList.search, 'Sp', browser)
         func.enterValue(selectors.contactCardInput.eeName, 'Teresa Spalding', browser)
         browser.click(selectors.buttons.saveChanges)
-        browser.expect.element(selectors.eeList.ee4).to.be.visible
+        browser.expect.element(selectors.eeList.ee4).to.be.present
     }
 }

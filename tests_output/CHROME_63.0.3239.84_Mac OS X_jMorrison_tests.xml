@@ -5,16 +5,9 @@
 
   <testsuite name="jMorrison_tests"
     errors="0" failures="0" hostname="" id="" package="jMorrison_tests" skipped="0"
-    tests="3" time="12.32" timestamp="Wed, 03 Jan 2018 21:43:36 GMT">
+    tests="3" time="2.339" timestamp="Wed, 03 Jan 2018 22:09:34 GMT">
   
-    <testcase name="test search function" classname="jMorrison_tests" time="1.368" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="test clear button for search function" classname="jMorrison_tests" time="0.4520" assertions="3">
+    <testcase name="test search function" classname="jMorrison_tests" time="1.385" assertions="3">
 
     
 
@@ -23,7 +16,18 @@
     
     </testcase>
   
-    <testcase name="Modifying employee while search field is populated will update the results" classname="jMorrison_tests" time="10.51" assertions="3">
+    <testcase name="test clear button for search function" classname="jMorrison_tests" time="0.4550" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Modifying employee while search field is populated will update the results" classname="jMorrison_tests" time="0.4990" assertions="3">
 
     
 

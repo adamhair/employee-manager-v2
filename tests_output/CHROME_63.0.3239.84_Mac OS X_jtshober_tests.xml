@@ -5,12 +5,12 @@
 
   <testsuite name="jtshober_tests"
     errors="0" failures="0" hostname="" id="" package="jtshober_tests" skipped="0"
-    tests="6" time="11.28" timestamp="Wed, 03 Jan 2018 21:43:48 GMT">
+    tests="6" time="11.25" timestamp="Wed, 03 Jan 2018 22:09:37 GMT">
   
-    <testcase name="I can load the app in a new browser window, pause for 5 seconds, and then close the application" classname="jtshober_tests" time="6.363" assertions="0">
+    <testcase name="I can load the app in a new browser window, pause for 5 seconds, and then close the application" classname="jtshober_tests" time="6.333" assertions="0">
     </testcase>
   
-    <testcase name="Testing that a(n) employee card contains 5 specific pieces of information" classname="jtshober_tests" time="1.359" assertions="5">
+    <testcase name="Testing that a(n) employee card contains 5 specific pieces of information" classname="jtshober_tests" time="1.372" assertions="5">
 
     
 
@@ -19,26 +19,26 @@
     
 
     
-
-    
-    </testcase>
-  
-    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Name&quot; - 1 of 4" classname="jtshober_tests" time="1.075" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Phone&quot; - 2 of 4" classname="jtshober_tests" time="0.8320" assertions="1">
+    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Name&quot; - 1 of 4" classname="jtshober_tests" time="1.057" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Email&quot; - 3 of 4" classname="jtshober_tests" time="0.7500" assertions="1">
+    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Phone&quot; - 2 of 4" classname="jtshober_tests" time="0.8350" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Title&quot; - 4 of 4" classname="jtshober_tests" time="0.9000" assertions="1">
+    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Email&quot; - 3 of 4" classname="jtshober_tests" time="0.7670" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Testing &quot;badData&quot; input on existing Employee &quot;Title&quot; - 4 of 4" classname="jtshober_tests" time="0.8840" assertions="1">
 
     
     </testcase>

@@ -5,9 +5,9 @@
 
   <testsuite name="ahair_tests"
     errors="0" failures="0" hostname="" id="" package="ahair_tests" skipped="0"
-    tests="2" time="3.697" timestamp="Wed, 03 Jan 2018 21:43:32 GMT">
+    tests="2" time="3.698" timestamp="Wed, 03 Jan 2018 22:09:31 GMT">
   
-    <testcase name="Test remove employee function" classname="ahair_tests" time="2.671" assertions="1">
+    <testcase name="Test remove employee function" classname="ahair_tests" time="2.672" assertions="1">
 
     
     </testcase>
