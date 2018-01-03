@@ -11,6 +11,12 @@ module.exports = {
     after: browser => {
         browser.end()
     },
+    "test search function": (browser) => {
+        browser.click(selectors.eeList.search)
+        func.enterValue(selectors.eeList.search, "Lou White")
+        browser.expect.element(selectors.eeList.ee8).to.be.present
+
+    },
     // This test completes JIRA test case EM2-6. https://dmutah.atlassian.net/projects/EM2/issues/EM2-6?filter=allopenissues
     'I can load the app in a new browser window, pause for 5 seconds, and then close the application': browser => {
         browser
@@ -67,5 +73,4 @@ module.exports = {
             .pause(300)
             .acceptAlert()
     },
-
 }
