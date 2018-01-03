@@ -13,7 +13,7 @@ module.exports = {
    badData: {
        name: 'asdfjklapoiurewq123456789nbmvcnbadfebad',
        phone: '123456789',
-       email: 'asdfjklapoiurewq123456789nbmvcnbadfebad',
+       email: 'asdf.',
        title: 'asdfjklapoiurewq123456789nbmvcnbadfebad'
    }
 }
