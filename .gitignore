@@ -7,7 +7,8 @@
 /coverage
 selenium-debug.log
 /tests-output
-
+/nightwatch.comf.js
+/nightwatchProps.js
 
 # production
 /build
