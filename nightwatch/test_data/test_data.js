@@ -6,7 +6,8 @@ module.exports = {
        name: 'Superman',
        phone: '8016783456',
        email: 'hello@gmail.com',
-       title: 'COO'
+       title: 'COO',
+       name1: 'Bernice Ortiz'
    },
    //badData is derived from the README.md file, partial boundary testing.
    badData: {
