@@ -1,4 +1,4 @@
-const resourcePath = 'C:\\Users\\garag\\Desktop\\devmtn\\testing-resources\\'
+//const resourcePath = 'C:\\Users\\garag\\Desktop\\devmtn\\testing-resources\\'
 
 module.exports = {
     "src_folders" : "nightwatch/tests",
