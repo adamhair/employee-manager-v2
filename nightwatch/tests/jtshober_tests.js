@@ -17,9 +17,9 @@ module.exports = {
         browser.url('http://localhost:3000')
             .pause(5000)
         browser.end()
-        console.log('App was sucessfully loaded, then closed.')
+        console.log('App was successfully loaded, then closed.')
     },
-    // This test completes JIRA test case EM2-9 https://dmutah.atlassian.net/projects/EM2/issues/EM2-9?filter=allopenissues
+    // This test completes JIRA test case EM2-9. https://dmutah.atlassian.net/projects/EM2/issues/EM2-9?filter=allopenissues
     'Testing that a(n) employee card contains 5 specific pieces of information': browser => {
         browser
             .click(selectors.eeList.ee1)
@@ -29,6 +29,43 @@ module.exports = {
         browser.expect.element(selectors.contactCardInput.eeTitle).value.to.contain('CEO')
         browser.expect.element(selectors.contactCardHeaders.eeID).text.to.contain('1')
 
-    }
+    },
+    // The following 4 tests complete JIRA test case EM2-12. https://dmutah.atlassian.net/browse/EM2-12
+    'Testing "badData" input on existing Employee "Name" - 1 of 4': browser => {
+        browser
+            .click(selectors.eeList.ee1)
+        func.enterValue(selectors.contactCardInput.eeName, data.badData.name, browser)
+        browser
+            .click(selectors.buttons.saveChanges)
+            .pause(300)
+            .acceptAlert()
+    },
+    'Testing "badData" input on existing Employee "Phone" - 2 of 4': browser => {
+        browser
+            .click(selectors.eeList.ee1)
+        func.enterValue(selectors.contactCardInput.eePhone, data.badData.phone, browser)
+        browser
+            .click(selectors.buttons.saveChanges)
+            .pause(300)
+            .acceptAlert()
+    },
+    'Testing "badData" input on existing Employee "Email" - 3 of 4': browser => {
+        browser
+            .click(selectors.eeList.ee1)
+        func.enterValue(selectors.contactCardInput.eeEmail, data.badData.email, browser)
+        browser
+            .click(selectors.buttons.saveChanges)
+            .pause(300)
+            .acceptAlert()
+    },
+    'Testing "badData" input on existing Employee "Title" - 4 of 4': browser => {
+        browser
+            .click(selectors.eeList.ee1)
+        func.enterValue(selectors.contactCardInput.eeTitle, data.badData.title, browser)
+        browser
+            .click(selectors.buttons.saveChanges)
+            .pause(300)
+            .acceptAlert()
+    },
 
 }
