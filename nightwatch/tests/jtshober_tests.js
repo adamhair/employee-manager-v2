@@ -37,7 +37,6 @@ module.exports = {
         func.enterValue(selectors.contactCardInput.eeName, data.badData.name, browser)
         browser
             .click(selectors.buttons.saveChanges)
-            .pause(300)
             .acceptAlert()
     },
     'Testing "badData" input on existing Employee "Phone" - 2 of 4': browser => {
@@ -46,7 +45,6 @@ module.exports = {
         func.enterValue(selectors.contactCardInput.eePhone, data.badData.phone, browser)
         browser
             .click(selectors.buttons.saveChanges)
-            .pause(300)
             .acceptAlert()
     },
     'Testing "badData" input on existing Employee "Email" - 3 of 4': browser => {
@@ -55,7 +53,6 @@ module.exports = {
         func.enterValue(selectors.contactCardInput.eeEmail, data.badData.email, browser)
         browser
             .click(selectors.buttons.saveChanges)
-            .pause(300)
             .acceptAlert()
     },
     'Testing "badData" input on existing Employee "Title" - 4 of 4': browser => {
@@ -64,7 +61,6 @@ module.exports = {
         func.enterValue(selectors.contactCardInput.eeTitle, data.badData.title, browser)
         browser
             .click(selectors.buttons.saveChanges)
-            .pause(300)
             .acceptAlert()
     },
 
